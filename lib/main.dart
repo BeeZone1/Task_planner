@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 void main() {
-  runApp(TaskPlannerApp());
+  runApp(const TaskPlannerApp());
 }
 
 class TaskPlannerApp extends StatelessWidget {
@@ -15,7 +15,7 @@ class TaskPlannerApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: TaskListScreen(),
+      home: const TaskListScreen(),
     );
   }
 }
